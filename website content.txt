@@ -1,0 +1,158 @@
+=======Home section=======
+
+Hi, I am Martian
+
+Front-end Developer
+
+I create stunning websites for your business, Highly experienced in web design and development.
+
+=======About section=======
+
+I'm Martian
+
+A Lead Front-End Developer based in California
+
+I design and develop services for customers specializing creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through meaningful interactions. Check out my Portfolio
+
+=======Skills section=======
+
+Education & Skills
+------------------
+
+For more than 5 years our experts have been accomplishing enough with modern Web Development, new generation web and app programming language.
+
+Education
+---------
+
+2020-2021
+Ph.D in Horriblensess - Harvard University, Cambridge, MA
+2018-2019
+Computer Science - Imperialize Technical Institute
+2016-2018
+Graphic Designer - Web Graphy, Los Angeles, CA
+
+Awards
+------
+
+2021
+Best Developer - University Of Melbourne, NA
+2020
+Best Writter - Online Typodev Soluation Ltd.
+2019
+Best Freelancer - Fiver & Upwork Level 2 & Top Rated
+
+Work & Experience
+-----------------
+
+Sr. Graphic Designer
+Part Time | Office
+2020 - 2021
+Avada Theme.
+I design and develop services for customers of all sizes, specializing in creating stylish, modern websites
+
+Cr. Web Developer
+Full Time | InHouse
+2019 - 2020
+ib-themes ltd.
+I design and develop services for customers of all sizes, specializing in creating stylish, modern websites
+
+Jr. Web Developer
+Full Time | Remote
+2018 - 2019
+Creative Gigs.
+I design and develop services for customers of all sizes, specializing in creating stylish, modern websites
+
+
+=======Services section=======
+
+1.Ui/UX Consultancy
+-------------------
+
+Ui/UX Consultancy
+
+What is UX consulting?
+UX consulting helps companies improve their product’s overall usability and optimize expenses by implementing the right UX processes, methods, and tools.
+
+What I provide
+Establish the right UX processes
+Create exceptional user experiences
+Discover new business opportunities
+Save resources
+
+2.Branding & Design
+-------------------
+
+Branding & Design
+What is Brand & Design?
+Brand Design can be defined as one of the crucial marketing practices of creating the name, logo, design, and the symbolic elements related to the brand to create a distinctive identity in comparison to the other brands in the market and also providing impetus to the product differentiation.
+
+What I provide
+Logo Design
+Banner Design
+Visual Identity Packages
+Business Cards & Business Systems
+
+3.Web Development
+-----------------
+
+Web Development
+What is Web Development?
+Web development services are used to design, build, support, and evolve all types of web-based software.
+
+What I provide
+Web application development
+Testing
+Maintenance
+
+4.Content Writing
+-----------------
+
+Content Writing
+What is Content Writing?
+Content writing is the process of planning, writing and editing web content, typically for digital marketing purposes.
+
+What I provide
+Web content writing
+Blog writing for websites
+Social media content
+
+=======Portfolio section=======
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+=======Our client section=======
+
+1.
+Hi, I’m Aria Collins and I am designer & developer who dream making the world better place by products. I am also very active for international clients.
+
+Aria Collins
+
+Marketing Manager
+
+2.
+This is outstanding work. Everything I needed to do has been done by the makers. I really like this template and more importantly my clients are blown away by it.
+
+Cillian Metcalfe
+
+Graphic Designer
+
+3.
+These people really know what they are doing! Great customer support availability and supperb kindness. I am very happy that I've purchased this liscense!!!
+
+Kianna Baird
+
+App Developer
+
+=======Contact section=======
+
++00 123-777-9999
+
+martain@email.com
+
+7249 Brewery Ave. San Francisco, CA 94112
+
+I'm always open to discussing product design work or partnerships.
+
+=======Footer=======
+
+© 2021 by Coding Snow. All rights reserved.

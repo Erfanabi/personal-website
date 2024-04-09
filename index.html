@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Complete Responsive Personal Portfolio Website - Html, Css & Javascript
+    </title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--=======Scroll to top button=======-->
+    <div class="scrollToTop-btn">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+
+    <!--=======Light/Dark theme button=======-->
+    <div class="theme-btn">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun d-none"></i>
+    </div>
+
+    <!--=======Header=======-->
+    <header>
+      <div class="nav-bar">
+        <a href="#" class="logo">Erfan SH</a>
+
+        <i class="fa-solid fa-bars nav-menu-btn"></i>
+
+        <div class="navigation">
+          <div class="nav-item">
+            <i class="fas fa-times nav-close-btn" id="nav-close-btn"></i>
+
+            <a href="#home" class="hvr-underline-from-center active">Home</a>
+            <a href="#about" class="hvr-underline-from-center">About</a>
+            <a href="#skills" class="hvr-underline-from-center">Skills</a>
+            <a href="#services" class="hvr-underline-from-center">Services</a>
+            <a href="#projects" class="hvr-underline-from-center">Projects</a>
+            <a href="#contact" class="hvr-underline-from-center">Contact</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--=======Home section=======-->
+    <section class="home flex-center section" id="home">
+      <div class="home-container section-container">
+        <div class="media-icon">
+          <a href="#"><li class="fab fa-facebook-f"></li></a>
+          <a href="#"><li class="fab fa-instagram"></li></a>
+          <a href="#"><li class="fab fa-twitter"></li></a>
+        </div>
+
+        <div class="info">
+          <h2>Hi, I am Erfan</h2>
+          <h3>Front-end Developer</h3>
+          <p>
+            I create stunning websites for your business, Highly experienced in
+            web design and development.
+          </p>
+          <a href="#" class="btn"
+            >Contact Me <i class="fas fa-arrow-circle-right"></i
+          ></a>
+        </div>
+
+        <div class="home-img">
+          <img src="images/main-img.png" alt="main" />
+        </div>
+      </div>
+      <a href="#about" class="scroll-down"
+        >Scroll Down <i class="fas fa-arrow-down"></i
+      ></a>
+    </section>
+
+    <!--=======About section=======-->
+    <section class="about flex-center section" id="about">
+      <h1 class="section-title-01">About Me</h1>
+      <h2 class="section-title-02">About Me</h2>
+      <div class="about-container section-container">
+        <div class="about-img">
+          <img src="images/about-img.png" alt="about" />
+        </div>
+
+        <div class="about-info">
+          <h3>I am Erfan</h3>
+          <h4>
+            A Lead <span class="text-primary">Front-End-Developer</span> based
+            in <span class="text-primary">Iran</span>
+          </h4>
+          <p>
+            I design and develop services for customers specializing creating
+            stylish, modern websites, web services and online stores. My passion
+            is to design digital user experiences through meaningful
+            interactions. Check out my Portfolio
+          </p>
+
+          <ul class="professional-list">
+            <li class="list-item">
+              <h3>5+</h3>
+              <span
+                >Years of <br />
+                Experience</span
+              >
+            </li>
+            <li class="list-item">
+              <h3>3K+</h3>
+              <span
+                >Years of <br />
+                Experience</span
+              >
+            </li>
+            <li class="list-item">
+              <h3>5+</h3>
+              <span
+                >Success <br />
+                Projects</span
+              >
+            </li>
+          </ul>
+          <a href="#" class="btn">Download <i class="fas fa-download"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!--=======Skills section=======-->
+    <section class="skills flex-center section" id="skills">
+      <h1 class="section-title-01">Skills</h1>
+      <h2 class="section-title-02">Skills</h2>
+
+      <div class="skills-description">
+        <h3>Education & Skills</h3>
+        <p>
+          For more than 5 years our experts have been accomplishing enough with
+          modern Web Development, new generation web and app programming
+          language.
+        </p>
+      </div>
+
+      <div class="skills-info">
+        <div class="education">
+          <h4><label>Education</label></h4>
+
+          <ul class="edu-list">
+            <li class="item">
+              <span class="year">2020-2021</span>
+              <p>
+                <span>Ph.D in Horriblensess</span> - Harvard University, <br />
+                Cambridge, MA
+              </p>
+            </li>
+
+            <li class="item">
+              <span class="year">2020-2021</span>
+              <p>
+                <span>Ph.D in Horriblensess</span> - Harvard University, <br />
+                Cambridge, MA
+              </p>
+            </li>
+
+            <li class="item">
+              <span class="year">2020-2021</span>
+              <p>
+                <span>Ph.D in Horriblensess</span> - Harvard University, <br />
+                Cambridge, MA
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="education">
+          <h4><label>Skills</label></h4>
+
+          <ul class="bars">
+            <li class="bar">
+              <div class="info">
+                <span>HTML</span>
+                <span>90%</span>
+              </div>
+
+              <div class="line html"></div>
+            </li>
+
+            <li class="bar">
+              <div class="info">
+                <span>CSS</span>
+                <span>85%</span>
+              </div>
+
+              <div class="line css"></div>
+            </li>
+
+            <li class="bar">
+              <div class="info">
+                <span>Javascript</span>
+                <span>75%</span>
+              </div>
+
+              <div class="line javascript"></div>
+            </li>
+
+            <li class="bar">
+              <div class="info">
+                <span>React</span>
+                <span>95%</span>
+              </div>
+
+              <div class="line react"></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="awards">
+          <h4><label>Awards</label></h4>
+
+          <ul class="edu-list">
+            <li class="item">
+              <span class="year">2021</span>
+              <p>
+                <span>Best Developer</span> - University Of Melbourne, <br />
+                NA
+              </p>
+            </li>
+
+            <li class="item">
+              <span class="year">2020</span>
+              <p>
+                <span>Best Writter</span> - Online Typodev Soluation Ltd <br />
+                Ltd.
+              </p>
+            </li>
+
+            <li class="item">
+              <span class="year">2019</span>
+              <p>
+                <span>Best Freelancer</span> - Fiver & Upwork Level 2 & <br />
+                Top Rated
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="skills-description mt-60">
+        <h3>Work & Experience</h3>
+      </div>
+
+      <div class="skills-info">
+        <div class="experience-card">
+          <div class="upper">
+            <h3>Sr. Graphic Designer</h3>
+            <h5>Part Time | Office</h5>
+            <span>2020 - 2021 </span>
+          </div>
+          <hr />
+          <h4><label>Avada Theme. </label></h4>
+          <p>
+            I design and develop services for customers of all sizes,
+            specializing in creating stylish, modern websites
+          </p>
+        </div>
+
+        <div class="experience-card">
+          <div class="upper">
+            <h3>Cr. Web Developer</h3>
+            <h5>Full Time | InHouse</h5>
+            <span>2019 - 2020 </span>
+          </div>
+          <hr />
+          <h4><label>ib-themes ltd. </label></h4>
+          <p>
+            I design and develop services for customers of all sizes,
+            specializing in creating stylish, modern websites
+          </p>
+        </div>
+
+        <div class="experience-card">
+          <div class="upper">
+            <h3>Jr. Web Developer</h3>
+            <h5>Full Time | Remote</h5>
+            <span>2018 - 2019 </span>
+          </div>
+          <hr />
+          <h4><label>Creative Gigs. </label></h4>
+          <p>
+            I design and develop services for customers of all sizes,
+            specializing in creating stylish, modern websites
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--=======Services section=======-->
+    <section class="services flex-center section" id="services">
+      <h1 class="section-title-01">services</h1>
+      <h2 class="section-title-02">services</h2>
+
+      <div class="services-description">
+        <h3>What I provide</h3>
+      </div>
+
+      <div class="service-list">
+        <div class="service-container">
+          <div class="service-card">
+            <i class="fas fa-pencil-ruler"></i>
+            <h3>Ui/UX Consultancy</h3>
+            <div class="learn-more-btn" id="open-modal">
+              Learn More
+              <i class="fas fa-long-arrow-alt-right"></i>
+            </div>
+          </div>
+
+          <div class="modal">
+            <div class="modal-body">
+              <i class="fas fa-times modal-close-btn" id="modal-close-btn"></i>
+              <h3>Ui/UX Consultancy</h3>
+              <h4>What is UX consulting?</h4>
+              <p>
+                UX consulting helps companies improve their product’s overall
+                usability and optimize expenses by implementing the right UX
+                processes, methods, and tools.
+              </p>
+              <h4>What I provide</h4>
+              <ul>
+                <li>
+                  <i class="fas fa-check-circle"></i>Establish the right UX
+                  processes
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>Create exceptional user
+                  experiences
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>Discover new business
+                  opportunities
+                </li>
+                <li><i class="fas fa-check-circle"></i>Save resources</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-container">
+          <div class="service-card">
+            <i class="fas fa-photo-video"></i>
+            <h3>Branding & Design</h3>
+            <div class="learn-more-btn" id="open-modal">
+              Learn More <i class="fas fa-long-arrow-alt-right"></i>
+            </div>
+          </div>
+
+          <div class="modal">
+            <div class="modal-body">
+              <i class="fas fa-times modal-close-btn" id="modal-close-btn"></i>
+              <h3>Ui/UX Consultancy</h3>
+              <h4>What is UX consulting?</h4>
+              <p>
+                UX consulting helps companies improve their product’s overall
+                usability and optimize expenses by implementing the right UX
+                processes, methods, and tools.
+              </p>
+              <h4>What I provide</h4>
+              <ul>
+                <li>
+                  <i class="fas fa-check-circle"></i>Establish the right UX
+                  processes
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>Create exceptional user
+                  experiences
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>Discover new business
+                  opportunities
+                </li>
+                <li><i class="fas fa-check-circle"></i>Save resources</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-container">
+          <div class="service-card">
+            <i class="fas fa-file-code"></i>
+            <h3>Web Development</h3>
+            <div class="learn-more-btn" id="open-modal">
+              Learn More <i class="fas fa-long-arrow-alt-right"></i>
+            </div>
+          </div>
+
+          <div class="modal">
+            <div class="modal-body">
+              <i class="fas fa-times modal-close-btn" id="modal-close-btn"></i>
+              <h3>Ui/UX Consultancy</h3>
+              <h4>What is UX consulting?</h4>
+              <p>
+                UX consulting helps companies improve their product’s overall
+                usability and optimize expenses by implementing the right UX
+                processes, methods, and tools.
+              </p>
+              <h4>What I provide</h4>
+              <ul>
+                <li>
+                  <i class="fas fa-check-circle"></i>Establish the right UX
+                  processes
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>Create exceptional user
+                  experiences
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>Discover new business
+                  opportunities
+                </li>
+                <li><i class="fas fa-check-circle"></i>Save resources</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-container">
+          <div class="service-card">
+            <i class="fas fa-align-left"></i>
+            <h3>Content Writing</h3>
+            <div class="learn-more-btn" id="open-modal">
+              Learn More <i class="fas fa-long-arrow-alt-right"></i>
+            </div>
+          </div>
+
+          <div class="modal">
+            <div class="modal-body">
+              <i class="fas fa-times modal-close-btn" id="modal-close-btn"></i>
+              <h3>Ui/UX Consultancy</h3>
+              <h4>What is UX consulting?</h4>
+              <p>
+                UX consulting helps companies improve their product’s overall
+                usability and optimize expenses by implementing the right UX
+                processes, methods, and tools.
+              </p>
+              <h4>What I provide</h4>
+              <ul>
+                <li>
+                  <i class="fas fa-check-circle"></i>Establish the right UX
+                  processes
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>Create exceptional user
+                  experiences
+                </li>
+                <li>
+                  <i class="fas fa-check-circle"></i>Discover new business
+                  opportunities
+                </li>
+                <li><i class="fas fa-check-circle"></i>Save resources</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=======Portfolio section=======-->
+    <section class="project flex-center section" id="projects">
+      <h1 class="section-title-01">Project</h1>
+      <h2 class="section-title-02">Project</h2>
+
+      <div class="project-container">
+        <div class="project-list">
+          <div class="img-card">
+            <img src="images/port-img1.jpg" alt="p1" />
+            <div class="overlay">
+              <h3>Web Design</h3>
+              <span>youtube</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-list">
+          <div class="img-card">
+            <img src="images/port-img2.jpg" alt="p2" />
+            <div class="overlay">
+              <h3>Web Design</h3>
+              <span>youtube</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-list">
+          <div class="img-card">
+            <img src="images/port-img3.jpg" alt="p3" />
+            <div class="overlay">
+              <h3>Web Design</h3>
+              <span>youtube</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-list">
+          <div class="img-card">
+            <img src="images/port-img4.jpg" alt="p4" />
+            <div class="overlay">
+              <h3>Web Design</h3>
+              <span>youtube</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-list">
+          <div class="img-card">
+            <img src="images/port-img5.jpg" alt="p5" />
+            <div class="overlay">
+              <h3>Web Design</h3>
+              <span>youtube</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-list">
+          <div class="img-card">
+            <img src="images/port-img6.jpg" alt="p6" />
+            <div class="overlay">
+              <h3>Web Design</h3>
+              <span>youtube</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=======Contact section=======-->
+    <section class="contact flex-center section" id="contact">
+      <h1 class="section-title-01">Contact Me</h1>
+      <h2 class="section-title-02">Contact Me</h2>
+      <div class="contact-container section-container">
+        <div class="contact-left">
+          <h2>Let's discuss your project</h2>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+
+            <div class="contact-info">
+              <h3>Phone</h3>
+              <span>09105003119</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div class="contact-info">
+              <h3>Email Address</h3>
+              <span>ErfanSharafi60@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="contact-info">
+              <h3>Offical Address</h3>
+              <span>7249 Brewery Ave. San Francisco, CA 94112 </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-right">
+          <p>
+            I'm always open to discussing product <br />
+            <span>design work or partnerships.</span>
+          </p>
+
+          <form class="contact-form">
+            <div class="first-row">
+              <input type="text" placeholder="Name" />
+            </div>
+
+            <div class="second-row">
+              <input type="email" placeholder="Email" />
+              <input type="text" placeholder="Subject" />
+            </div>
+
+            <div class="third-row">
+              <textarea
+                name="message"
+                id=""
+                cols="30"
+                rows="7"
+                placeholder="Message"
+              ></textarea>
+            </div>
+
+            <button class="btn">
+              Send Message <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--=======Footer=======-->
+    <footer class="footer" id="footer">
+      <div class="footer-container">
+        <div class="about">
+          <h2>Erfan</h2>
+          <p>Front-End Developer</p>
+          <a href="#about">About Me</a>
+        </div>
+        <hr />
+        <div class="info">
+          <h3>More</h3>
+          <ul>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <hr />
+        <div class="media">
+          <h3>Follow</h3>
+          <ul>
+            <li>
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-copy-right">
+        <p>© 2021 by Coding Snow. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!--=======External scripts=======-->
+    <!-- <script src="js/scrollreveal.js"></script> -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
