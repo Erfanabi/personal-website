@@ -4,14 +4,13 @@
 
 - [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-
 - [Demo Project](https://personal-website-dusky-zeta.vercel.app/)
 
 ### Technologies Used
 
-- Html
-- Css
-- Js
+| `html` | <img src="./icons/HTML.svg" width="48"> |
+| `css` | <img src="./icons/CSS.svg" width="48"> |
+| `js` | <img src="./icons/JavaScript.svg" width="48"> |
 
 ## Getting Started
 
@@ -31,8 +30,7 @@ Erfan Sharafi - [09105003119] - erfansharafi60@gmail.com
 
 Project Link: [https://github.com/Erfanabi/personal-website](https://github.com/Erfanabi/personal-website)
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: images/download.png
 
+[product-screenshot]: images/download.png
