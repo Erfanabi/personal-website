@@ -4,9 +4,11 @@
 
 - [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-- [Demo Project](https://personal-website-dusky-zeta.vercel.app/)
+- ✅✅ [Demo Project](https://erfanabi.github.io/personal-website/)
 
 ### Technologies Used
+
+"responsive"
 
 | `html` | <img src="./icons/HTML.svg" width="48"> |
 | `css` | <img src="./icons/CSS.svg" width="48"> |
